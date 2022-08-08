@@ -33,12 +33,12 @@ export const emacs = async (args?: string[]): Promise<string> => {
   return `really? emacs? you should be using 'vim'`;
 };
 
-export const koobs = async (args?: string[]): Promise<string> => {
+export const sudo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://www.youtube.com/watch?v=_RoyqtW1Rvs');
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
   }, 1000);
 
-  return `Inas ke badeee:D`;
+  return `Permission denied: unable to run the command '${args[0]}' as root`;
 };
 
 export const repo = async (args?: string[]): Promise<string> => {
