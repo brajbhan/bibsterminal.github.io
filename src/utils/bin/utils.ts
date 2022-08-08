@@ -20,9 +20,9 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:amirh.khali@gmail.com');
+  window.open('mailto:brezzy5040@gmail.com');
 
-  return 'Opening mailto:amirh.khali@gmail.com...';
+  return 'Opening mailto:brezzy5040@gmail.com...';
 };
 
 export const vim = async (args: string[]): Promise<string> => {
@@ -43,7 +43,7 @@ export const koobs = async (args?: string[]): Promise<string> => {
 
 export const repo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://github.com/AmirH-KHALI/amirh-khali.github.io');
+    window.open('https://github.com/brajbhan/bibsterminal.github.io');
   }, 1000);
 
   return 'Opening repository...';
@@ -51,7 +51,7 @@ export const repo = async (args?: string[]): Promise<string> => {
 
 export const banner = (args?: string[]): string => {
   return `
-<p align="center"><a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&lines=Hi%2C+I'm+AmirHossein+Ahmadi!%F0%9F%A4%98%F0%9F%8F%BF" width="700"></a></p>
+<p align="center"><a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?pause=500&color=5BF761&background=E7FFBE00&lines=Hi+This+is+Bibek" width="700"></a></p>
 Type 'help' to see list of available commands.
 `;
 };

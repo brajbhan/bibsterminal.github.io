@@ -3,13 +3,13 @@
   "version": "2.13.1",
   "license": "MIT",
   "author": {
-    "name": "AmirHossein Ahmadi",
-    "url": "https://amirh-khali.github.io",
+    "name": "Bibek Rajbhandari ",
+    "url": "https://brajbhan.github.io/bibsterminal.github.io/",
     "email": "amirh.khali@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AmirH-KHALI/amirh-khali.github.io"
+    "url": "https://github.com/brajbhan/bibsterminal.github.io"
   },
   "scripts": {
     "start": "next start",
